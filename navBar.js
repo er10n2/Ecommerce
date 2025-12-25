@@ -14,6 +14,7 @@ async function getNavbar(){
     const  loginbtn = document.getElementById('login-btn');
     const  registerBtn = document.getElementById('register-btn');
     const logoutBtn = document.getElementById('logout-btn');
+    const loginMessage = document.querySelector('.login-message');
     
     const userLoggedIn = JSON.parse(localStorage.getItem('currentUser'));
 
@@ -25,7 +26,7 @@ async function getNavbar(){
            
         logoutBtn.style.display = 'block';
 
-
+        loginMessage.style.display = 'none';
 
 
     }
