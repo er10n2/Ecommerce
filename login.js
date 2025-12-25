@@ -39,7 +39,7 @@ registerF.addEventListener("submit", function(e){
 
     localStorage.setItem('currentUser', JSON.stringify(currentUser));
 
-    window.location.href = '/index.html';
+    window.location.href = 'index.html';
 
     console.log('current user : ', currentUser);
 
