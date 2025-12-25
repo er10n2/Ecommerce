@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="navBar.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div class="containerProfile">
+      <div class="innerContainer">
+
+        <div class="imageAndUsernameDiv">
+          <div>
+            <img class="profileImg" src="techhh.png" alt="profile picture" />
+          </div>
+
+          <div>
+            <h2 class="userName">username</h2>
+            <small class="userEmail">userEMAil</small>
+          </div>
+        </div>
+
+        <div class="nrOrdersDiv">
+          <div class="nrOfOrdersDivInner">
+            <h3 class="nrOfOrders">Total orders : </h3>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="formAndOrderDiv">
+
+
+          <div class="buttonsDiv">
+    <button class="edit-btn btn">Edit Profile</button>
+    <button class="myOrders-btn btn">My Orders</button>
+    <hr class="line">
+  </div>
+
+      <div class="profileFormDiv">
+       
+
+        <form class="profileForm">
+
+
+          <input id="username" type="text" placeholder="Username"></inpput>
+             <input id="email" type="email" placeholder="email"></input>
+
+            <button class="updateBtn" type="submit">Update</button>
+
+
+
+        </form>
+
+
+      </div>
+
+      <div class="profileOrderDiv">
+
+        <div class="orderCard">
+                 
+        </div>
+
+
+      </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="profile.js"></script>
+    <script src="navBar.js"></script>
+  </body>
+</html>

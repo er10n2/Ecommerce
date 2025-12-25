@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="orderProduct.css">
+    <link rel="stylesheet" href="navBar.css">
+</head>
+<body>
+
+<div id="navbar">
+
+</div>
+
+
+<h1 class="titleOrder">Order Product</h1>
+
+
+<div class="orderDetails">
+
+
+<div class="orderTop">
+
+    <div id="productCard">
+
+
+
+    </div>
+
+
+    <div class="formDiv">
+
+        <form id="orderForm">
+
+                  <label for="name">
+                    Name:
+            </label>
+
+            <input  readonly ="text" class="name input" name="name">
+
+
+            <label for="email">Email:</label>
+
+            <input readonly type="email" name="email" class="email input">
+
+            <label for="pnumber">Phone Number:</label>
+             <input type="text" inputmode="numeric" pattern="[0-9]{9}" name="pnumber" class="phone input">
+
+
+               <button type="submit">Place order</button>
+
+               <p class="errorEl"></p>
+        </form>
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+    <script src="navBar.js"></script>
+    <script src="orderProduct.js"></script>
+</body>
+</html>

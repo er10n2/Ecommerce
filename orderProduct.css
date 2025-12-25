@@ -1,0 +1,159 @@
+.orderDetails{
+    width:90%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.orderTop{
+     width:100%;
+     display: flex;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    justify-content: space-between;
+   align-items: center;
+  margin-bottom: 40px;
+}
+.titleOrder{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+
+.formDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#orderForm {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#orderForm label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+
+#orderForm input {
+    width: 90%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+
+
+#orderForm button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#orderForm button:hover {
+    background-color: #5a1f9e;
+}
+
+
+
+#productCard{
+
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    padding:14px;
+      background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   
+}
+
+.imgDiv{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.img2{
+
+    width:70%;
+
+
+}
+
+.textDiv{
+    width:70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+     font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-align: center;
+   
+    margin: 0;
+    gap:5px;
+    
+}
+
+.textDiv2{
+    text-align: left;
+     font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    width:70%;
+}
+
+
+.price{
+   background-color: brown;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin:0;
+  
+
+}
+
+.category{
+      background-color: grey;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
