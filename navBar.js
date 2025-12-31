@@ -36,6 +36,7 @@ async function getNavbar(){
         e.preventDefault();
 
         localStorage.removeItem('currentUser');
+        location.reload();
 
             logoutBtn.style.display = 'none';
 

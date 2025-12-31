@@ -20,18 +20,23 @@ registerF.addEventListener("submit", function(e){
     if(fullnameValue === '' || usernameValue === '' || emailValue === '' || passwordValue === '' ){
 
         errorEl.textContent= 'All fields are required';
+        return;
+
 
     }
 
     if(fullnameValue.length < 2  || usernameValue.length < 2){
 
         errorEl.textContent = 'fullname and username must be at least 2 characters';
+        return;
+
 
     }
 
     if(passwordValue.length < 6){
 
         errorEl.textContent = 'Password must be at least 6 characters'
+        return;
 
     }
 
@@ -64,6 +69,7 @@ registerF.addEventListener("submit", function(e){
     localStorage.setItem('registeredUsers',JSON.stringify(registeredUsers));
 
     alert('user registered successfully!');
+    errorEl.textContent = '';
 
     registerF.reset();
 
